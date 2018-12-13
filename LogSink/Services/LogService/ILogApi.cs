@@ -4,11 +4,11 @@ namespace LogSink.Services.LogService
 {
     public interface ILogApi
     {
-        ActionResult<LogResponse> Fatal(string log);
-        ActionResult<LogResponse> Error(string log);
-        ActionResult<LogResponse> Warn(string log);
-        ActionResult<LogResponse> Info(string log);
-        ActionResult<LogResponse> Debug(string log);
-        ActionResult<LogResponse> Trace(string log);
+        LogResponse Fatal(string log);
+        LogResponse Error(string log);
+        LogResponse Warn(string log);
+        LogResponse Info(string log);
+        LogResponse Debug(string log);
+        LogResponse Trace(string log);
     }
 }
