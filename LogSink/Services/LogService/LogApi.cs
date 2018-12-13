@@ -6,32 +6,32 @@ namespace LogSink.Services.LogService
     {
         public ActionResult<LogResponse> Debug(string log)
         {
-            throw new System.NotImplementedException();
+            return new LogResponse();
         }
 
         public ActionResult<LogResponse> Error(string log)
         {
-            throw new System.NotImplementedException();
+            return new LogResponse();
         }
 
         public ActionResult<LogResponse> Fatal(string log)
         {
-            throw new System.NotImplementedException();
+            return new LogResponse();
         }
 
         public ActionResult<LogResponse> Info(string log)
         {
-            throw new System.NotImplementedException();
+            return new LogResponse();
         }
 
         public ActionResult<LogResponse> Trace(string log)
         {
-            throw new System.NotImplementedException();
+            return new LogResponse();
         }
 
         public ActionResult<LogResponse> Warn(string log)
         {
-            throw new System.NotImplementedException();
+            return new LogResponse();
         }
     }
 }
