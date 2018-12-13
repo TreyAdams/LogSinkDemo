@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace LogSink.Controllers
+namespace LogSink.Services.LogService
 {
     public interface ILogApi
     {

@@ -1,4 +1,4 @@
-﻿namespace LogSink.Controllers
+﻿namespace LogSink.Services.LogService
 {
     public class LogResponse
     {

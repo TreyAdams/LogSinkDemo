@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using LogSink.Services.LogService;
+using Microsoft.AspNetCore.Mvc;
 
 namespace LogSink.Controllers
 {
